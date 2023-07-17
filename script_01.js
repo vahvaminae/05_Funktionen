@@ -31,7 +31,11 @@ function ausgabeNamen()
 //***** Funktionen 02b *****/
 // 2b. Parametrisierung + Datenübergabe von AUSSEN
 
+
+//Argumente sind daten für Parameter
 ausgabeNamen2("Tilli");
+ausgabeNamen2("Hubert");
+ausgabeNamen2("Lotta");
 
 function ausgabeNamen2(firstName)
 {
