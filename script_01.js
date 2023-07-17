@@ -33,9 +33,9 @@ function ausgabeNamen()
 
 
 //Argumente sind daten für Parameter
-ausgabeNamen2("Tilli");
-ausgabeNamen2("Hubert");
-ausgabeNamen2("Lotta");
+//ausgabeNamen2("Tilli");
+//ausgabeNamen2("Hubert");
+//ausgabeNamen2("Lotta");
 
 function ausgabeNamen2(firstName)
 {
@@ -43,4 +43,12 @@ function ausgabeNamen2(firstName)
     //console.log("Hallo Lucas!");
     //let = "Lucas";
     console.log("Hallo " + firstName + "!");
+}
+
+ausgabeNamenParams("Max", "Mütze");
+ausgabeNamenParams(prompt("Vorname?"),prompt("Nachname?"));
+
+function ausgabeNamenParams(firstName, familyName) 
+{
+    console.log("Hallo " + firstName + " " + familyName + "!"); 
 }
