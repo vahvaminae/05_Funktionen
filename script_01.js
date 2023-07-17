@@ -27,3 +27,16 @@ function ausgabeNamen()
 }
 
 //console.log(firstName); //Fehler --> SCOPE! (gültigkeitsbereich von Variablen)
+
+//***** Funktionen 02b *****/
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
+
+ausgabeNamen2("Tilli");
+
+function ausgabeNamen2(firstName)
+{
+   // console.log("Hallo Max!");
+    //console.log("Hallo Lucas!");
+    //let = "Lucas";
+    console.log("Hallo " + firstName + "!");
+}
